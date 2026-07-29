@@ -11,7 +11,6 @@
 ## 🌐 Language
 
 - [English](#english)
-- [Русский](#русский)
 
 ---
 
