@@ -43,10 +43,21 @@ Make the script executable:
 chmod +x scripts/create-template.sh
 ```
 
+### Make the script global (optional but recommended)
+To run the script from any folder, create a symbolic link:
+
+```bash
+sudo ln -s $(pwd)/create-template.sh /usr/local/bin/clean-arch
+```
+
 Create a new project:
 
 ```bash
 ./scripts/create-template.sh
+```
+or if you made the command global:
+```bash
+clean-arch
 ```
 
 Enter project name:
@@ -62,7 +73,7 @@ cd MyApp/MyApp.WebAPI
 dotnet run
 ```
 
-Dependency Rule
+### Dependency Rule
 
 ```text
 WebAPI → Infrastructure → Application → Domain
@@ -100,7 +111,7 @@ cd ../Blog.WebAPI
 dotnet run
 ```
 
-❗️❗️❗️ To make Swagger work, install Swashbuckle.AspNetCore via NuGet or using the command:
+# ❗️❗️❗️ To make Swagger work, install Swashbuckle.AspNetCore via NuGet or using the command:
 ```bash
 dotnet add package Swashbuckle.AspNetCore
 ```
