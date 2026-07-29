@@ -111,7 +111,7 @@ cd ../Blog.WebAPI
 dotnet run
 ```
 
-# ❗️❗️❗️ To make Swagger work, install Swashbuckle.AspNetCore via NuGet or using the command:
+***❗️❗️❗️ To make Swagger work, install Swashbuckle.AspNetCore via NuGet or using the command:***
 ```bash
 dotnet add package Swashbuckle.AspNetCore
 ```
