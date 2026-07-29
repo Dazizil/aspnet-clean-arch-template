@@ -92,7 +92,8 @@ SQLite 10.0.0-preview
 
 ```bash
 # Create a blog project
-./scripts/create-template.sh
+create-template
+#or this way if you haven't made the command global: ./scripts/create-template.sh
 > Enter project name: Blog
 
 # Create a model in Domain
