@@ -4,7 +4,7 @@
 
 [![.NET](https://img.shields.io/badge/.NET-10.0-blueviolet)](https://dotnet.microsoft.com/)
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
-[![GitHub stars](https://img.shields.io/github/stars/YOUR_USERNAME/aspnet-clean-arch-template)](https://github.com/YOUR_USERNAME/aspnet-clean-arch-template/stargazers)
+[![GitHub stars](https://img.shields.io/github/stars/Dazizil/aspnet-clean-arch-template)](https://github.com/Dazizil/aspnet-clean-arch-template/stargazers)
 
 ---
 
