@@ -36,32 +36,38 @@ Clone the repository:
 ```bash
 git clone https://github.com/YOUR_USERNAME/aspnet-clean-arch-template.git
 cd aspnet-clean-arch-template
+```
 
 Make the script executable:
 
 ```bash
 chmod +x scripts/create-template.sh
+```
 
 Create a new project:
 
 ```bash
 ./scripts/create-template.sh
+```
 
 Enter project name:
 
 ```text
 Enter project name: MyApp
+```
 
 Run the project:
 
 ```bash
 cd MyApp/MyApp.WebAPI
 dotnet run
+```
 
 Dependency Rule
 
 ```text
 WebAPI → Infrastructure → Application → Domain
+```
 
 Dependencies always point inward to Domain.
 
